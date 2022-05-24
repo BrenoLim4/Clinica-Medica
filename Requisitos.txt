@@ -2,6 +2,7 @@ Projeto de Ds1 Av2
 
 Projeto: Clinica Médica
 
+
 requisitos{
 *-> cliente pode marcar consulta.
 *-> cliente e a atendente podem desmarcar consulta(Atendente precisa avisar o cancelamento ao cliente).
@@ -10,13 +11,15 @@ requisitos{
 *-> Médico pode consultar as consultas e exames em que ele é médico(atendente pode de todos)
 *-> No fim de cada consulta, o médico pode ou não solicitar exames para o usuário.
 *-> Os exames só podem ser marcados pela atendente, conforme solicitação do médico responsável.
+*-> gravar o histórico da alteração no estado da consulta e dos exames
 
 -> Atendente tem acesso aos horários disponíveis, para marcação de consultas de todos os clientes.
 -> A ficha do paciente, tem que ficar a disposição do médico;
 -> Médico tem que manter seus horários atualizados.
--> médico não pode ter duas consultas marcadas para o mesmo dia e horário.
+-> Médico não pode ter duas consultas marcadas para o mesmo dia e horário.
 -> Cliente não pode marcar mais de uma consulta no o mesmo horário.
 -> Clinica só funciona de segunda a sexta de 08:00 ás 18:00
+
 }
 
 
